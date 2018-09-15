@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4baf7a-a84f-4bc0-870a-b9566bf6f7b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,10 +34,21 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="168" column="58" selection-start-line="168" selection-start-column="58" selection-end-line="168" selection-end-column="58" />
+            <state relative-caret-position="611">
+              <caret line="202" column="146" selection-start-line="202" selection-start-column="146" selection-end-line="202" selection-end-column="146" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,7 +72,14 @@
       <find>validate</find>
       <find>save</find>
       <find>getMUITheme</find>
+      <find>t.indexOf</find>
+      <find>t=</find>
+      <find>TODO</find>
+      <find>addImg</find>
     </findStrings>
+    <replaceStrings>
+      <replace>onClick</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,6 +140,45 @@
             <path>
               <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
               <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="material-ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="material-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="svg-icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="material-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="svg-icons" type="462c0819:PsiDirectoryNode" />
+              <item name="hardware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-sketch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-sketch" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
@@ -240,12 +295,12 @@
       <updated>1536993210641</updated>
       <workItem from="1536993212618" duration="7846000" />
       <workItem from="1537002760839" duration="1438000" />
-      <workItem from="1537004679134" duration="7002000" />
+      <workItem from="1537004679134" duration="17810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16286000" />
+    <option name="totallyTimeSpent" value="27094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -300,20 +355,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/ReactNative/UIManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/android/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -640,10 +681,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-sketch/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="7" column="309232" selection-start-line="7" selection-start-column="309232" selection-end-line="7" selection-end-column="309531" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="168" column="58" selection-start-line="168" selection-start-column="58" selection-end-line="168" selection-end-column="58" />
+        <state relative-caret-position="611">
+          <caret line="202" column="146" selection-start-line="202" selection-start-column="146" selection-end-line="202" selection-end-column="146" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
