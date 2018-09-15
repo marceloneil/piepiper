@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "@material-ui/core": "^3.0.3",
+    "material-ui": "^0.20.2",
+    "react-bootstrap": "^0.32.4",
     "react-scripts": "1.1.5",
     "react-sketch": "^0.4.4"
   },
@@ -16,5 +17,9 @@
   },
   "resolutions": {
     "react-sketch/**/phantomjs-prebuilt": "2.1.8"
+  },
+  "devDependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
   }
 }
