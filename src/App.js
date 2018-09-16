@@ -210,7 +210,7 @@ class App extends Component {
             totalFrames: totalFrames,
         });
         if (index < this.state.drawings.length && this.state.drawings[index]) {
-            this._sketch.addImg(this.state.urls[index], {scale:1.0});
+            this._sketch.addImg(this.state.urls[index], {left:0, top: 0, scale:1.0});
         }
 
     }
