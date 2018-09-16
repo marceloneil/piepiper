@@ -29,8 +29,6 @@ import SaveIcon from 'material-ui/svg-icons/content/save';
 import RightIcon from 'material-ui/svg-icons/hardware/keyboard-arrow-right';
 import LeftIcon from 'material-ui/svg-icons/hardware/keyboard-arrow-left';
 
-
-
 const styles = {
     root: {
         padding: '3px',
@@ -99,11 +97,16 @@ class App extends Component {
         index: 0,
         totalFrames:1,
         currentFrame:null,
+        penColor: 'black',
+        toolName: Tools.Pencil,
     };
 
     selectTool (even, index, value) {
+        if (value === Tools.Pencil) this.setState({penColor: 'black'});
+        if (value === "Eraser") {this.setState({penColor: 'white', toolName: 'Eraser'}); value = Tools.Pencil;}
+        else this.setState({toolName: value, penColor: 'black'});
         this.setState({
-            tool: value
+            tool: value,
         });
     }
 
@@ -118,8 +121,8 @@ class App extends Component {
     save () {
         let drawings = this.state.drawings;
         let index = this.state.index;
-        if (drawings[index]) drawings[index] = this._sketch;
-        else drawings.push(this._sketch);
+        if (drawings[index]) drawings[index] = this._sketch.toDataURL();
+        else drawings.push(this._sketch.toDataURL());
 
         this.setState({drawings: drawings});
     }
@@ -200,7 +203,7 @@ class App extends Component {
                             <AppBar title={<span style={{fontSize: 36, fontWeight: 'bold'}}>Pie Piper</span>} showMenuIconButton={false} style={styles.appBar}>
                                 <button
                                     onClick={()=>console.log("middle out!")}
-                                    style={{alignSelf: 'center', height: 36, borderRadius:5, color: 'white', outline: 'none', borderColor:'#8fbbff'}}
+                                    style={{alignSelf: 'center', height: 36, borderRadius:5, color: 'white', outline: 'none', borderColor:'#8fbbff', cursor:'pointer'}}
                                 >
                                     <span style={{fontSize: 24, fontWeight: 'bold', color: '#8fbbff'}}>Middle Out!</span>
                                 </button>
@@ -240,7 +243,7 @@ class App extends Component {
                                 width='1000px'
                                 height='1000px'
                                 tool={this.state.tool}
-                                lineColor='black'
+                                lineColor={this.state.penColor}
                                 lineWidth={this.state.lineWidth}
                                 imageFormat="jpeg"
                                 onChange={this.onSketchChange.bind(this)}
@@ -254,7 +257,7 @@ class App extends Component {
                             iconStyle={{width:'42px', height: '42px', fill: 'black'}}>
                             <LeftIcon/>
                         </IconButton>
-                        <text style={{fontSize: 36, fontWeight: 'bold', textAlign: 'right'}}> {this.state.index+1}</text>
+                        <span style={{fontSize: 36, fontWeight: 'bold', textAlign: 'right'}}> {this.state.index+1}</span>
                         <IconButton
                             onClick={this.next.bind(this)}
                             iconStyle={{width:'42px', height: '42px', fill: 'black'}}>
@@ -268,13 +271,13 @@ class App extends Component {
 
                         <CardText expandable={false} style={{backgroundColor:'#8fbbff'}}>
                             <label htmlFor='tool' style={{color:'white', fontSize:24, fontWeight: 'bold'}}>Canvas Tool</label><br/>
-                            <SelectField ref='tool' value={this.state.tool} onChange={this.selectTool.bind(this)} labelStyle={{ color: 'white' }}>
-                                <MenuItem value={Tools.Select} primaryText={<span style={{fontSize: 20}}>Select</span>}/>
+                            <SelectField ref='tool' value={this.state.toolName} onChange={this.selectTool.bind(this)} labelStyle={{ color: 'white' }}>
                                 <MenuItem value={Tools.Pencil} primaryText={<span style={{fontSize: 20}}>Pencil</span>}/>
                                 <MenuItem value={Tools.Line} primaryText={<span style={{fontSize: 20}}>Line</span>}/>
                                 <MenuItem value={Tools.Rectangle} primaryText={<span style={{fontSize: 20}}>Rectangle</span>}/>
                                 <MenuItem value={Tools.Circle} primaryText={<span style={{fontSize: 20}}>Circle</span>}/>
                                 <MenuItem value={Tools.Pan} primaryText={<span style={{fontSize: 20}}>Pan</span>}/>
+                                <MenuItem value={"Eraser"} primaryText={<span style={{fontSize: 20}}>Eraser</span>}/>
                             </SelectField>
                             <br/>
                             <br/>
