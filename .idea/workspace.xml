@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4baf7a-a84f-4bc0-870a-b9566bf6f7b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/css/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/index.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/sass/_index.html.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/sass/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/sass/main.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/tools/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/tools/srcServer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/webpack.config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/webpack.config.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/lib/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/lib/ReactImageCarousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/lib/css/main.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/src/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/src/ReactImageCarousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/src/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,8 +34,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="147" column="43" selection-start-line="147" selection-start-column="43" selection-end-line="147" selection-end-column="43" />
+            <state relative-caret-position="442">
+              <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -477,12 +422,12 @@
       <updated>1536993210641</updated>
       <workItem from="1536993212618" duration="7846000" />
       <workItem from="1537002760839" duration="1438000" />
-      <workItem from="1537004679134" duration="31950000" />
+      <workItem from="1537004679134" duration="32232000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41234000" />
+    <option name="totallyTimeSpent" value="41516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -877,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="147" column="43" selection-start-line="147" selection-start-column="43" selection-end-line="147" selection-end-column="43" />
+        <state relative-caret-position="442">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

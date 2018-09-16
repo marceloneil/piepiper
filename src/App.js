@@ -32,8 +32,6 @@ import LeftIcon from 'material-ui/svg-icons/hardware/keyboard-arrow-left';
 import Carousel from './react-image-carousel';
 require("./react-image-carousel/lib/css/main.min.css");
 
-require("../node_modules/react-image-gallery/styles/css/image-gallery-no-icon.css");
-
 const styles = {
     root: {
         padding: '3px',
