@@ -221,9 +221,12 @@ class App extends Component {
         this.save();
         this.clear();
 
+        let flag = false;
+
         let index = this.state.index;
         let totalFrames = this.state.totalFrames;
         if (index+1===totalFrames) {
+            flag = true;
             totalFrames++;
             index++;
         } else {
@@ -236,6 +239,8 @@ class App extends Component {
         });
         if (index < this.state.drawings.length && this.state.drawings[index]) {
             this._sketch.addImg(this.state.urls[index], {left:0, top: 0, scale:1.0});
+        } else if (flag) {
+            this._sketch.addImg(this.state.urls[index-1], {left:0, top: 0, scale:1.0});
         }
 
     }
