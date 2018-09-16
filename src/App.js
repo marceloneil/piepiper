@@ -118,6 +118,10 @@ class App extends Component {
         token: Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15)
     };
 
+    componentDidMount() {
+        document.title = "PiePiper";
+    }
+
     selectTool (even, index, value) {
         if (value === Tools.Pencil) this.setState({penColor: 'black'});
         if (value === "Eraser") {this.setState({penColor: 'white', toolName: 'Eraser'}); value = Tools.Pencil;}
