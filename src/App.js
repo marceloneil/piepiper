@@ -97,7 +97,8 @@ const muiTheme = getMuiTheme({
 
 const images = [
         'http://purepng.com/public/uploads/large/purepng.com-waterwaterdropslakessea-1411527268114d4naz.png',
-        'https://vignette.wikia.nocookie.net/thecreatures/images/4/48/Yoshi.png/revision/latest?cb=20150109223009'
+        'https://vignette.wikia.nocookie.net/thecreatures/images/4/48/Yoshi.png/revision/latest?cb=20150109223009',
+        'https://vignette.wikia.nocookie.net/vsbattles/images/3/34/Tiger-jumping-transparent-png-image.png/revision/latest?cb=20161021003138'
 ];
 
 class App extends Component {
@@ -175,6 +176,7 @@ class App extends Component {
     }
 
     middleOut() {
+        //this.setState({middleOut: !this.state.middleOut});
         fetch('http://piepiper.1lab.me/api/middleout', {
             method: "post",
             headers: {
@@ -306,7 +308,7 @@ class App extends Component {
                             <div className={"my-carousel"} style={{height:1000}}>
                                 <Carousel
                                     images = {this.state.renderedImages}
-                                    autoplay={1000}
+                                    autoplay={200}
                                     loop={true}
                                     lazyLoad={false}
                                 />

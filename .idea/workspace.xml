@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4baf7a-a84f-4bc0-870a-b9566bf6f7b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-image-carousel/lib/ReactImageCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-image-carousel/lib/ReactImageCarousel.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +25,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
+            <state relative-caret-position="342">
+              <caret line="309" column="71" selection-start-line="309" selection-start-column="71" selection-end-line="309" selection-end-column="71" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -160,8 +156,8 @@
       <find>console.log</find>
       <find>addImg</find>
       <find>loop</find>
-      <find>carousel</find>
       <find>fetch</find>
+      <find>carousel</find>
     </findStrings>
     <replaceStrings>
       <replace>onClick</replace>
@@ -484,12 +480,12 @@
       <updated>1536993210641</updated>
       <workItem from="1536993212618" duration="7846000" />
       <workItem from="1537002760839" duration="1438000" />
-      <workItem from="1537004679134" duration="45498000" />
+      <workItem from="1537004679134" duration="45676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54782000" />
+    <option name="totallyTimeSpent" value="54960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -886,8 +882,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="309" column="71" selection-start-line="309" selection-start-column="71" selection-end-line="309" selection-end-column="71" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
