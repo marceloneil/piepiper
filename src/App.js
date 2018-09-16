@@ -319,7 +319,7 @@ class App extends Component {
 
                     {
                         this.state.middleOut ?
-                            <div className={"my-carousel"} style={{height:1000}}>
+                            <div className={"my-carousel"} style={{height:1400}}>
                                 <Carousel
                                     images = {this.state.renderedImages}
                                     autoplay={200}
