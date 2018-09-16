@@ -173,7 +173,7 @@ class App extends Component {
 
     middleOut() {
         fetch('http://piepiper.1lab.me/api/upload', {
-            method: "get",
+            method: "post",
             headers: {
                 'Accept': 'application/json',
                 'Content-Type': 'application/json'
