@@ -139,8 +139,6 @@ class App extends Component {
         if (drawings[index]) drawings[index] = uri;
         else drawings.push(uri);
 
-        console.log(uri);
-
         this.setState({drawings: drawings});
 
         fetch('http://piepiper.1lab.me/api/upload', {
@@ -190,7 +188,6 @@ class App extends Component {
         })
     }
     next() {
-        console.log("next");
         this.save();
         this.clear();
 
@@ -203,8 +200,6 @@ class App extends Component {
             index++;
         }
 
-        console.log(index);
-        console.log(totalFrames);
         this.setState({
             index: index,
             totalFrames: totalFrames,
@@ -219,14 +214,10 @@ class App extends Component {
         let index = this.state.index;
         let totalFrames = this.state.totalFrames;
         if (index !== 0) {
-            console.log("prev");
             this.save();
             this.clear();
             index--;
-            console.log(index);
-            console.log(totalFrames);
             if (index < this.state.drawings.length && this.state.drawings[index]) {
-                //console.log(this.state.urls[index]);
                 this._sketch.addImg(this.state.urls[index], {left:0, top: 0, scale:1.0});
             }
             this.setState({index: index});
