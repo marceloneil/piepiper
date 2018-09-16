@@ -143,6 +143,8 @@ class App extends Component {
         if (drawings[index]) drawings[index] = uri;
         else drawings.push(uri);
 
+        console.log(uri);
+
         this.setState({drawings: drawings});
 
         fetch('http://piepiper.1lab.me/api/upload', {
@@ -186,11 +188,11 @@ class App extends Component {
         })
             .then(res => res.json())
             .then( (response) => {
-                console.log(response);
+                console.log(response.frames);
 
                 this.setState({
                     middleOut: !this.state.middleOut,
-                    renderedImages: response
+                    renderedImages: response.frames
                 });
             });
     }
