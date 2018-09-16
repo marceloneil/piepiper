@@ -34,8 +34,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="175" column="25" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
+            <state relative-caret-position="702">
+              <caret line="174" column="52" selection-start-line="174" selection-start-column="52" selection-end-line="174" selection-end-column="52" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -46,8 +46,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/react-sketch/lib/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="7" column="270981" selection-start-line="7" selection-start-column="270972" selection-end-line="7" selection-end-column="270981" />
+            <state relative-caret-position="281">
+              <caret line="7" column="309240" selection-start-line="7" selection-start-column="309234" selection-end-line="7" selection-end-column="309240" />
             </state>
           </provider>
         </entry>
@@ -144,7 +144,6 @@
       <find>Fade</find>
       <find>https://upload.wikimedia.org/wikipedia/commons/6/66/Android_robot.png</find>
       <find>Transition</find>
-      <find>addImg</find>
       <find>loadImage</find>
       <find>setInterval</find>
       <find>clearInterval</find>
@@ -155,6 +154,7 @@
       <find>e.indexOf</find>
       <find>console.log</find>
       <find>middleOut</find>
+      <find>addImg</find>
     </findStrings>
     <replaceStrings>
       <replace>onClick</replace>
@@ -417,12 +417,12 @@
       <updated>1536993210641</updated>
       <workItem from="1536993212618" duration="7846000" />
       <workItem from="1537002760839" duration="1438000" />
-      <workItem from="1537004679134" duration="41842000" />
+      <workItem from="1537004679134" duration="42401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51126000" />
+    <option name="totallyTimeSpent" value="51685000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -810,15 +810,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-sketch/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="7" column="270981" selection-start-line="7" selection-start-column="270972" selection-end-line="7" selection-end-column="270981" />
+        <state relative-caret-position="281">
+          <caret line="7" column="309240" selection-start-line="7" selection-start-column="309234" selection-end-line="7" selection-end-column="309240" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="175" column="25" selection-start-line="175" selection-start-column="25" selection-end-line="175" selection-end-column="25" />
+        <state relative-caret-position="702">
+          <caret line="174" column="52" selection-start-line="174" selection-start-column="52" selection-end-line="174" selection-end-column="52" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
