@@ -9,7 +9,7 @@
     "react-image-carousel": "^2.0.18",
     "react-image-gallery": "^0.8.11",
     "react-scripts": "1.1.5",
-    "react-sketch": "^0.4.4"
+    "react-sketch": "git+https://github.com/marceloneil/react-sketch.git#edb07b1f901f9e356f8561be1018535794d8e433"
   },
   "scripts": {
     "start": "react-scripts start",
