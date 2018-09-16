@@ -241,6 +241,7 @@ class App extends Component {
             this._sketch.addImg(this.state.urls[index], {left:0, top: 0, scale:1.0});
         } else if (flag) {
             console.log(flag);
+            console.log(this.state.urls[index-1]);
             this._sketch.addImg(this.state.urls[index-1], {left:0, top: 0, scale:1.0});
         }
 
