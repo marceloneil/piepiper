@@ -2,7 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4baf7a-a84f-4bc0-870a-b9566bf6f7b3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/css/main.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/img/landing5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/img/landing5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/index.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/sass/_index.html.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/sass/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/src/sass/main.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/tools/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/tools/srcServer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/webpack.config.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/example/example2/webpack.config.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/lib/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/lib/ReactImageCarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/lib/css/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/src/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/src/ReactImageCarousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-image-carousel/src/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -34,8 +89,8 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="687">
-              <caret line="289" column="27" selection-start-line="289" selection-start-column="27" selection-end-line="289" selection-end-column="27" />
+            <state relative-caret-position="239">
+              <caret line="147" column="43" selection-start-line="147" selection-start-column="43" selection-end-line="147" selection-end-column="43" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -44,12 +99,77 @@
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-sketch/lib/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="7" column="309462" selection-start-line="7" selection-start-column="309462" selection-end-line="7" selection-end-column="309462" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReactImageCarousel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/react-image-carousel/src/ReactImageCarousel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReactImageCarousel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/react-image-carousel/lib/ReactImageCarousel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="314">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/react-image-carousel/lib/Footer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-766" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/react-image-carousel/src/Footer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageGallery.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-image-gallery/src/ImageGallery.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18479">
+              <caret line="1087" column="31" lean-forward="true" selection-start-line="1087" selection-start-column="31" selection-end-line="1087" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image-gallery.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/react-image-gallery/styles/css/image-gallery.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5016" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -75,11 +195,19 @@
       <find>t.indexOf</find>
       <find>t=</find>
       <find>TODO</find>
-      <find>addImg</find>
       <find>text</find>
+      <find>Fade</find>
+      <find>https://upload.wikimedia.org/wikipedia/commons/6/66/Android_robot.png</find>
+      <find>Transition</find>
+      <find>addImg</find>
+      <find>loadImage</find>
+      <find>setInterval</find>
+      <find>clearInterval</find>
+      <find>this._timer</find>
     </findStrings>
     <replaceStrings>
       <replace>onClick</replace>
+      <replace>https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -103,6 +231,12 @@
         <option value="$PROJECT_DIR$/android/app/src/main/java/com/piepiper/MainApplication.java" />
         <option value="$PROJECT_DIR$/android/settings.gradle" />
         <option value="$PROJECT_DIR$/src/components/DrawScreen.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-image-carousel/lib/ReactImageCarousel.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-image-carousel/src/ReactImageCarousel.js" />
+        <option value="$PROJECT_DIR$/src/react-image-carousel/src/ReactImageCarousel.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-sketch/lib/index.js" />
+        <option value="$PROJECT_DIR$/src/react-image-carousel/lib/ReactImageCarousel.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
@@ -172,6 +306,34 @@
               <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
               <item name="piepiper" type="462c0819:PsiDirectoryNode" />
               <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-image-gallery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-image-gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-image-gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="react-image-gallery" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
               <item name="react-sketch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,6 +347,19 @@
               <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
               <item name="piepiper" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="react-image-carousel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piepiper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piepiper" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="react-image-carousel" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -200,6 +375,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -296,12 +477,12 @@
       <updated>1536993210641</updated>
       <workItem from="1536993212618" duration="7846000" />
       <workItem from="1537002760839" duration="1438000" />
-      <workItem from="1537004679134" duration="20586000" />
+      <workItem from="1537004679134" duration="31950000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29870000" />
+    <option name="totallyTimeSpent" value="41234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -356,54 +537,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/android/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="134" selection-start-line="4" selection-start-column="134" selection-end-line="4" selection-end-column="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DrawScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeScreen.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native-sketch-view/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/ReactNative/UIManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -678,11 +811,23 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-image-carousel/lib/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-766" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-image-carousel/src/Footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -691,17 +836,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-image-gallery/styles/css/image-gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-image-gallery/src/ImageGallery.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18479">
+          <caret line="1087" column="31" lean-forward="true" selection-start-line="1087" selection-start-column="31" selection-end-line="1087" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-sketch/lib/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="7" column="309232" selection-start-line="7" selection-start-column="309232" selection-end-line="7" selection-end-column="309531" />
+        <state relative-caret-position="353">
+          <caret line="7" column="309462" selection-start-line="7" selection-start-column="309462" selection-end-line="7" selection-end-column="309462" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-image-carousel/src/ReactImageCarousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react-image-carousel/lib/ReactImageCarousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="289" column="27" selection-start-line="289" selection-start-column="27" selection-end-line="289" selection-end-column="27" />
+        <state relative-caret-position="239">
+          <caret line="147" column="43" selection-start-line="147" selection-start-column="43" selection-end-line="147" selection-end-column="43" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

@@ -29,6 +29,11 @@ import SaveIcon from 'material-ui/svg-icons/content/save';
 import RightIcon from 'material-ui/svg-icons/hardware/keyboard-arrow-right';
 import LeftIcon from 'material-ui/svg-icons/hardware/keyboard-arrow-left';
 
+import Carousel from './react-image-carousel';
+require("./react-image-carousel/lib/css/main.min.css");
+
+require("../node_modules/react-image-gallery/styles/css/image-gallery-no-icon.css");
+
 const styles = {
     root: {
         padding: '3px',
@@ -83,15 +88,24 @@ const styles = {
 const muiTheme = getMuiTheme({
     slider: {
         trackColor: 'gray',
-        selectionColor: 'white'
+        selectionColor: 'white',
+        trackSize : 10,
+        handleSize:10
     },
 });
+
+const images = [
+        'https://vignette.wikia.nocookie.net/characters/images/3/31/Red.png/revision/latest?cb=20171013162906',
+        'https://vignette.wikia.nocookie.net/uncyclopedia/images/7/72/Green.png/revision/latest?cb=20060327020342',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/2000px-Solid_blue.svg.png',
+];
 
 class App extends Component {
     state = {
         tool: Tools.Pencil,
         lineWidth: 5,
         drawings: [],
+        urls: [],
         canUndo: false,
         canRedo: false,
         index: 0,
@@ -99,6 +113,7 @@ class App extends Component {
         currentFrame:null,
         penColor: 'black',
         toolName: Tools.Pencil,
+        middleOut: false,
     };
 
     selectTool (even, index, value) {
@@ -121,10 +136,42 @@ class App extends Component {
     save () {
         let drawings = this.state.drawings;
         let index = this.state.index;
-        if (drawings[index]) drawings[index] = this._sketch.toDataURL();
-        else drawings.push(this._sketch.toDataURL());
+        let uri = this._sketch.toDataURL();
+        let urls = this.state.urls;
+        if (drawings[index]) drawings[index] = uri;
+        else drawings.push(uri);
+
+        console.log(uri);
 
         this.setState({drawings: drawings});
+
+        fetch('http://piepiper.1lab.me/api/upload', {
+            method: "post",
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+
+            //make sure to serialize your JSON body
+            body: JSON.stringify({
+                index: index,
+                uri: uri,
+            })
+        })
+            .then(res => res.json())
+        .then( (response) => {
+            console.log(response.file);
+            let item = response.file;
+
+            if (urls[index]) urls[index] = item;
+            else urls.push({item});
+
+            this.setState({urls:urls});
+        });
+    }
+
+    middleOut() {
+        this.setState({middleOut: !this.state.middleOut});
     }
 
     undo () {
@@ -164,8 +211,9 @@ class App extends Component {
             index: index,
             totalFrames: totalFrames,
         });
-        if (index < this.state.drawings.length && this.state.drawings[index])
-            this._sketch.addImg('https://upload.wikimedia.org/wikipedia/commons/6/66/Android_robot.png');
+        if (index < this.state.drawings.length && this.state.drawings[index]) {
+            //this._sketch.addImg(this.state.urls[index]);
+        }
 
     }
 
@@ -179,11 +227,12 @@ class App extends Component {
             index--;
             console.log(index);
             console.log(totalFrames);
-            if (index < this.state.drawings.length && this.state.drawings[index]);
-                this._sketch.addImg('https://upload.wikimedia.org/wikipedia/commons/6/66/Android_robot.png');
+            if (index < this.state.drawings.length && this.state.drawings[index]) {
+                //console.log(this.state.urls[index]);
+                //this._sketch.addImg(this.state.urls[index]);
+            }
             this.setState({index: index});
         }
-
     }
 
     clear = () => {
@@ -200,9 +249,9 @@ class App extends Component {
                 <div>
                     <div className='row'>
                         <div className='col-xs-12 col-sm-12 col-md-12 col-lg-12'>
-                            <AppBar title={<span style={{fontSize: 36, fontWeight: 'bold'}}>Pie Piper</span>} showMenuIconButton={false} style={styles.appBar}>
+                            <AppBar title={<span style={{fontSize: 36, fontWeight: 'bold'}}>PiePiper</span>} showMenuIconButton={false} style={styles.appBar}>
                                 <button
-                                    onClick={()=>console.log("middle out!")}
+                                    onClick={this.middleOut.bind(this)}
                                     style={{alignSelf: 'center', height: 36, borderRadius:5, color: 'white', outline: 'none', borderColor:'#8fbbff', cursor:'pointer'}}
                                 >
                                     <span style={{fontSize: 24, fontWeight: 'bold', color: '#8fbbff'}}>Middle Out!</span>
@@ -235,9 +284,23 @@ class App extends Component {
                         </div>
                     </div>
 
+                    {
+                        this.state.middleOut ?
+                            <div className={"my-carousel"} style={{height:1000}}>
+                                <Carousel
+                                    images = {images}
+                                    autoplay={100}
+                                    loop={true}
+                                    lazyLoad={false}
+                                />
+                            </div>
+                            :
+                            null
+                    }
+
                     <br/>
                     <div className='row' style={{marginLeft: "auto", marginRight: "auto"}}>
-                        <div style={{boxShadow: '5px 7px #555', marginLeft: "auto", marginRight: "auto", border: '1px solid gray', height: '1000px', width: '1000px', borderColor: 'black'}}>
+                        <div style={{ boxShadow: '5px 7px #555', marginLeft: "auto", marginRight: "auto", border: '1px solid gray', height: '1000px', width: '1000px', borderColor: 'black'}}>
                             <SketchField
                                 ref={(c) => this._sketch = c}
                                 width='1000px'
@@ -245,7 +308,7 @@ class App extends Component {
                                 tool={this.state.tool}
                                 lineColor={this.state.penColor}
                                 lineWidth={this.state.lineWidth}
-                                imageFormat="jpeg"
+                                imageFormat="png"
                                 onChange={this.onSketchChange.bind(this)}
                             />
                         </div>
