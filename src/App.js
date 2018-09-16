@@ -182,8 +182,8 @@ class App extends Component {
     }
 
     middleOut() {
-        this.setState({middleOut: !this.state.middleOut});
-        /*fetch('http://piepiper.1lab.me/api/middleout', {
+        //this.setState({middleOut: !this.state.middleOut});
+        fetch('http://piepiper.1lab.me/api/middleout', {
             method: "post",
             headers: {
                 'Accept': 'application/json',
@@ -203,7 +203,7 @@ class App extends Component {
                     middleOut: !this.state.middleOut,
                     renderedImages: response.frames
                 });
-            });*/
+            });
     }
 
     undo () {
@@ -321,7 +321,7 @@ class App extends Component {
                         this.state.middleOut ?
                             <div className={"my-carousel"} style={{height:1000}}>
                                 <Carousel
-                                    images = {images}
+                                    images = {this.state.renderedImages}
                                     autoplay={200}
                                     loop={true}
                                     lazyLoad={false}
