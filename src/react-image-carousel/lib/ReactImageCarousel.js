@@ -101,6 +101,7 @@ var Carousel = function (_React$Component) {
 			var images = this.props.images || [];
 			if (this.props.loop) {
 				id = (id + images.length) % images.length;
+				if (id === images.length) id = 0;
 			} else {
 				id = id < 0 ? 0 : id >= images.length ? images.length - 1 : id;
 			}

@@ -32,6 +32,9 @@ import LeftIcon from 'material-ui/svg-icons/hardware/keyboard-arrow-left';
 import Carousel from './react-image-carousel';
 require("./react-image-carousel/lib/css/main.min.css");
 
+
+
+
 const styles = {
     root: {
         padding: '3px',
@@ -93,11 +96,8 @@ const muiTheme = getMuiTheme({
 });
 
 const images = [
-        'http://piepiper.1lab.me/images/e150ef530c0d7806d07faf3a1dace624d8e31ef9285584cae71425f181cd55c1.png',
-        'http://piepiper.1lab.me/images/730a943bee514238b11a794b8cf9b0331292fc4f0fb5f25e84b943f2a9ef2b94.png',
-        'http://piepiper.1lab.me/images/62d30302d3391230c4fe8fc391023d7c710b19b9753a3b6d3c3ac4b8713ce46f.png',
-        'http://piepiper.1lab.me/images/79642206e841e57b924e5648f36a004b8a719ce59b7e4e4e700348f6f7c3cab8.png',
-        'http://piepiper.1lab.me/images/192b16cf675064ed77c0e0b0d2782d96f38e0833f81cc23a386de916171f3b53.png'
+        'http://purepng.com/public/uploads/large/purepng.com-waterwaterdropslakessea-1411527268114d4naz.png',
+        'https://vignette.wikia.nocookie.net/thecreatures/images/4/48/Yoshi.png/revision/latest?cb=20150109223009'
 ];
 
 class App extends Component {
@@ -306,7 +306,7 @@ class App extends Component {
                             <div className={"my-carousel"} style={{height:1000}}>
                                 <Carousel
                                     images = {this.state.renderedImages}
-                                    autoplay={200}
+                                    autoplay={1000}
                                     loop={true}
                                     lazyLoad={false}
                                 />
