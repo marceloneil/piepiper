@@ -205,6 +205,7 @@ class App extends Component {
             totalFrames: totalFrames,
         });
         if (index < this.state.drawings.length && this.state.drawings[index]) {
+            console.log(this.state.urls[index]);
             this._sketch.addImg(this.state.urls[index], {left:0, top: 0, scale:1.0});
         }
 
@@ -218,6 +219,7 @@ class App extends Component {
             this.clear();
             index--;
             if (index < this.state.drawings.length && this.state.drawings[index]) {
+                console.log(this.state.urls[index]);
                 this._sketch.addImg(this.state.urls[index], {left:0, top: 0, scale:1.0});
             }
             this.setState({index: index});
