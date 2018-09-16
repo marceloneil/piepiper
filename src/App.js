@@ -160,7 +160,7 @@ class App extends Component {
             let item = response.file;
 
             if (urls[index]) urls[index] = item;
-            else urls.push({item});
+            else urls.push(item);
 
             this.setState({urls:urls});
         });
