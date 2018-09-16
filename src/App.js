@@ -96,9 +96,13 @@ const muiTheme = getMuiTheme({
 });
 
 const images = [
-        'http://purepng.com/public/uploads/large/purepng.com-waterwaterdropslakessea-1411527268114d4naz.png',
-        'https://vignette.wikia.nocookie.net/thecreatures/images/4/48/Yoshi.png/revision/latest?cb=20150109223009',
-        'https://vignette.wikia.nocookie.net/vsbattles/images/3/34/Tiger-jumping-transparent-png-image.png/revision/latest?cb=20161021003138'
+        'http://piepiper.1lab.me/images/d025a4f11da5158b7bd07ce99499415ab6a4d2a461fe6d252e38539223ef7e62.png',
+        'http://piepiper.1lab.me/images/ac47b4d95da31f22cd151a1d20a07f923ded25b98940884fc9ca3925dbf24ebe.png',
+        'http://piepiper.1lab.me/images/9f226dc2bfebffae3bc6bc4e7b3469ab51ea764c9ca4cc653f9208e23cd0f3f9.png',
+        'http://piepiper.1lab.me/images/877ad8716e61126bc957db27452a7a63adf7150b5885cd682de06a2c38e7f46e.png',
+        'http://piepiper.1lab.me/images/b3207f0228d3796121e344f32c828d207db7a4de7adac5f964b0be18c967e6c7.png',
+        'http://piepiper.1lab.me/images/e9870a0af05d0cfab0ac87cebe2a7f251130662df337530dfbfb774c01a7ad46.png',
+        ''
 ];
 
 class App extends Component {
@@ -178,8 +182,8 @@ class App extends Component {
     }
 
     middleOut() {
-        //this.setState({middleOut: !this.state.middleOut});
-        fetch('http://piepiper.1lab.me/api/middleout', {
+        this.setState({middleOut: !this.state.middleOut});
+        /*fetch('http://piepiper.1lab.me/api/middleout', {
             method: "post",
             headers: {
                 'Accept': 'application/json',
@@ -199,7 +203,7 @@ class App extends Component {
                     middleOut: !this.state.middleOut,
                     renderedImages: response.frames
                 });
-            });
+            });*/
     }
 
     undo () {
@@ -317,7 +321,7 @@ class App extends Component {
                         this.state.middleOut ?
                             <div className={"my-carousel"} style={{height:1000}}>
                                 <Carousel
-                                    images = {this.state.renderedImages}
+                                    images = {images}
                                     autoplay={200}
                                     loop={true}
                                     lazyLoad={false}
